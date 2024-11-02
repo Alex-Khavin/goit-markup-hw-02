@@ -1,0 +1,83 @@
+/* #region Base style */
+body {font-family: sans-serif;
+    color: #2e2f42;
+background-color: #FFFFFF;}
+/* #endregion */
+
+/* #region Header style */
+.logo {font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;}
+
+.logo-black {color: #2e2f42;}
+.white-logo {color: #f4f4fd;}
+
+.header {}
+
+.nav {}
+
+.header-list {}
+
+.header-item 
+
+.header-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.header-link:hover {color: #404bbf;} 
+.active:active {color: #404bbf;}
+
+.address {}
+
+.address-list {}
+
+.address-item {}
+
+.address-link {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
+
+.address-link:hover {color: #404bbf;}
+/* #endregion */
+
+/* #region Common */
+.section-title {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;}
+
+.subtitle {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
+
+.center {text-align: center;}
+
+p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
+
+.footer-text {color: #f4f4fd;}
+
+.portfolio {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-img {}
+
+.portfolio-text {}
