@@ -34,7 +34,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-.header-link:hover {color: #404bbf;} 
+.header-link:hover {color: #404bbf;}
+.header-link:focus {color: #404bbf;}
 .active:active {color: #404bbf;}
 
 .address {font-style: normal;}
@@ -50,17 +51,10 @@ color: #2e2f42;
     color: #434455;}
 
 .address-link:hover {color: #404bbf;}
+.address-link:focus {color: #404bbf;}
 /* #endregion */
 
 /* #region Common */
-.team-title {
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
 .subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -102,6 +96,8 @@ p {
     letter-spacing: 0.04em;
     color: #fff;
 }
+.button:hover {background-color: #404BBF;}
+.button:focus {background-color: #404BBF;}
 /* #endregion */
 
 /* #region Benefits */
@@ -120,21 +116,21 @@ p {
 .wrapper-team {
     background-color: #f4f4fd;
 }
-
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
 .team-list {}
 
 .team-item {
     background-color: #fff;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
 }
 
-.team-img {
-    width: 264px;
-    height: 260px;
-}
+.team-img {}
 
 .team-text {}
 /* #endregion */
@@ -146,8 +142,6 @@ p {
 
 .portfolio-item {
     background-color: #fff;
-    width: 360px;
-    height: 420px;
 }
 
 .portfolio-img {}
